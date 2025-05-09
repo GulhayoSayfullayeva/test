@@ -10,6 +10,7 @@
     "@primevue/core": "^4.3.4",
     "@primevue/themes": "^4.3.4",
     "core-js": "^3.8.3",
+    "git": "^0.1.5",
     "primeicons": "^7.0.0",
     "primevue": "^4.3.4",
     "vue": "^3.2.13",
