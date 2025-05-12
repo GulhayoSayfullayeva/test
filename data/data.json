@@ -1,35 +1,38 @@
 {
-    "posts": [
+    "books": [
         {
-            "id": 1,
-            "title": "welcome to the new blog",
+            "id": "12345",
+            "title": "Welcome to HTML world",
             "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "tags": [
                 "webdev",
                 "coding",
                 "news"
-            ]
+            ], 
+            "publishYear" : "1999"
         },
         {
-            "id": 2,
-            "title": "top 5 CSS tips",
+            "id": "234567",
+            "title": "Top 50 CSS tips",
             "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "tags": [
                 "css",
                 "webdev",
                 "coding"
-            ]
+            ],
+            "publishYear" : "1999"
         },
         {
-            "id": 3,
-            "title": "HTML tutorial",
+            "id": "345678",
+            "title": "Web-development",
             "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
             "tags": [
                 "css",
                 "webdev",
                 "coding"
-            ]
+            ],
+            "publishYear" : "1999"
         }
     ],
-    "books" : []
+    "posts" : []
 }

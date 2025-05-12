@@ -1,8 +1,8 @@
 <template>
    <div class="post">
-    <h3>{{ post.title }}</h3>
-    <p>{{ post.body }}</p>
-    <span v-for="tag in post.tags" :key="tag">
+    <h3>{{ book.title }}</h3>
+    <p>{{ book.body }}</p>
+    <span v-for="tag in book.tags" :key="tag">
       #{{ tag }}
     </span>
   </div>
@@ -10,7 +10,7 @@
 
 <script>
 export default {
- props: ['post'],
+ props: ['book'],
 }
 </script>
 
